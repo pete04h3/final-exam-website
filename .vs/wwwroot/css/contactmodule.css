@@ -1,0 +1,24 @@
+﻿.input {
+    transition: box-shadow 0.3s, border-color 0.3s;
+}
+
+    .input:focus {
+        box-shadow: 0 0 0 0.2rem rgba(88, 99, 248, 0.15);
+    }
+
+    .contact-module-wrapper{
+
+    display: flex;
+    flex-wrap: wrap;
+
+    }
+
+    .contact-module-wrapper .acontainer{
+
+    display: contents;
+
+    }
+
+#statumanu-contactmodule-wrapper > div > div > div > div > div > div.md\:flex.md\:-mx-4.mt-4.md\:mt-10 > div.md\:w-2\/3.md\:px-4 > div > div.text-right.mt-4.md\:mt-12 > button{
+    border-radius: 20px !important;
+}

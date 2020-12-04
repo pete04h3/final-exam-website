@@ -1,0 +1,230 @@
+﻿.aboutus {
+    width: 71%;
+    margin-left: 2rem;
+}
+
+.aboutus-section {
+    padding: 67px 0;
+    background: whitesmoke;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.aboutus-container{
+
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 100%;
+    height: auto;
+
+}
+
+.aboutus-row{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+.aboutus-title {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin: 0 0 39px;
+    padding: 0 0 11px;
+    position: relative;
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+    .aboutus-title::after {
+        background: #0500FF none repeat scroll 0 0;
+        bottom: 0;
+        content: "";
+        height: 2px;
+        left: 0;
+        position: absolute;
+        width: 54px;
+    }
+
+.aboutus-text {
+    color: #606060;
+    font-size: 13px;
+    line-height: 22px;
+    margin: 0 0 35px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+    .aboutus-text span {
+        color: black;
+        font-weight: 600;
+    }
+
+a:hover, a:active {
+    color: #0500FF;
+    text-decoration: none;
+    outline: 0;
+}
+
+.aboutus-more {
+    border: 1px solid #0500FF;
+    border-radius: 25px;
+    color: black;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 7px 20px;
+    text-transform: uppercase;
+}
+
+.feature{
+
+    margin-bottom: 3rem;
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+    .feature .feature-box .iconset {
+        float: left;
+        position: relative;
+        width: 22%;
+        background: whitesmoke;
+    }
+
+   
+
+    .feature .feature-box .feature-content h4 {
+        color: #0f0f0f;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: 22px;
+        margin: 0 0 5px;
+        margin-top: 1rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+
+.feature .feature-box .feature-content {
+    float: left;
+    padding-left: 28px;
+    width: 78%;
+}
+
+    .feature .feature-box .feature-content h4 {
+        color: #0f0f0f;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: 22px;
+        margin: 0 0 5px;
+        margin-top: 1rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .feature .feature-box .feature-content p {
+        color: #606060;
+        font-size: 13px;
+        line-height: 22px;
+        font-family: 'Comfortaa', sans-serif;
+    }
+
+.icon {
+    color: #f4b841;
+    padding: 0px;
+    font-size: 40px;
+    
+   
+    
+    font-size: 28px;
+    line-height: 70px;
+    text-align: center;
+    width: 70px;
+}
+
+.icon-img1 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    transform: scale(1.3);
+}
+
+
+.icon-img2 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    transform: scale(0.88);
+    margin-top: 0.6rem;
+}
+
+
+.icon-img3 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    transform: scale(0.88);
+}
+
+
+/*Mediua Querys*/
+@media screen and (max-width: 500px) {
+    .aboutus-row {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .clearfix {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feature .feature-box .feature-content {
+        /* float: left; */
+        padding-left: 28px;
+        width: 89%;
+    }
+
+    .icon {
+        color: #f4b841;
+        padding: 94px;
+        font-size: 40px;
+        font-size: 28px;
+        line-height: 70px;
+        text-align: center;
+        width: 99px;
+        height: 25vh;
+    }
+
+    .aboutus {
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+    .aboutus-container {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .aboutus-title::after {
+        background: #0500FF none repeat scroll 0 0;
+        bottom: 0;
+        content: "";
+        height: 2px;
+        left: 5.6rem;
+        position: absolute;
+        width: 54px;
+    }
+}

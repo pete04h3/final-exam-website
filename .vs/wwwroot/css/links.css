@@ -1,0 +1,892 @@
+﻿
+.nature-article-link span:hover {
+    color: #020CFF;
+    border: none;
+    text-decoration: none;
+}
+
+.nature-article-link:hover {
+    border: none;
+    text-decoration: none;
+    color: black;
+   
+}
+
+.nature-article-link-box {
+   
+    position: relative;
+    margin: 0 auto;
+    display: grid;
+    margin-left: 2rem;
+    margin-top: -1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.nature-article-link {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 1.5rem;
+}
+
+
+    .nature-article-link span {
+        font-family: 'Poppins', sans-serif;
+        color: black;
+        font-weight: 700;
+        font-size: 1.3rem;
+        padding-left: 1rem;
+    }
+
+/*Software image link*/
+
+.statumanu-icp-software-link {
+    color: snow;
+    background: #202C8C;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: -webkit-center;
+    /* text-align: center; */
+    padding-top: 0.8rem;
+    padding-left: 0.6rem;
+    border-radius: 2rem;
+}
+
+    .statumanu-icp-software-link:hover {
+        background: black;
+        color: whitesmoke;
+        border-radius: 2rem;
+    }
+
+.statumanu-icp-software-box {
+    display: grid;
+    /* grid-template-rows: 120px 120px 120px; */
+    width: 20%;
+    height: 5vh;
+    margin: 0 auto;
+    text-align: right;
+    padding-right: 3.1rem;
+    padding-top: 0.67rem;
+    padding: 0rem;
+    margin-top: 45rem;
+    margin-right: 12rem;
+    /* border: 1px solid blue; */
+    border-radius: 2rem;
+    background: black;
+}
+
+
+
+
+/*Mediua Querys*/
+@media screen and (max-width: 1920px) {
+    .nature-article-link-box {
+        position: relative;
+        margin: 0 auto;
+        display: grid;
+        margin-left: 7.5rem;
+        padding: 3rem;
+        
+    }
+
+    .nature-article-link {
+        font-family: 'Poppins', sans-serif;
+        color: black;
+        font-size: 1.5rem;
+    }
+
+        .nature-article-link span {
+            font-family: 'Poppins', sans-serif;
+            color: black;
+            font-size: 1.5rem;
+        }
+    .statumanu-icp-software-box {
+        display: grid;
+        /* grid-template-rows: 120px 120px 120px; */
+        width: 20%;
+        height: 6vh;
+        margin: 0 auto;
+        text-align: right;
+        padding-right: 3.1rem;
+        padding-top: 0.67rem;
+        padding: 0rem;
+        margin-top: 52rem;
+        margin-right: 6rem;
+        /* border: 1px solid blue; */
+        border-radius: 2rem;
+        background: black;
+    }
+
+    .statumanu-icp-software-link {
+        color: snow;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 1.2rem;
+        text-align: -webkit-center;
+        /* text-align: center; */
+        padding-top: 1.1rem;
+        padding-left: 0.6rem;
+    }
+}
+
+    @media screen and (max-width: 1900px) {
+
+        .nature-article-link-box {
+            position: relative;
+            margin: 0 auto;
+            display: grid;
+            margin-left: 7.5rem;
+            padding: 1rem;
+        }
+
+        .nature-article-link {
+            font-family: 'Poppins', sans-serif;
+            color: black;
+            font-size: 1.5rem;
+        }
+
+            .nature-article-link span {
+                font-family: 'Poppins', sans-serif;
+                color: black;
+                font-size: 1.5rem;
+            }
+
+        .statumanu-icp-software-box {
+            display: grid;
+            /* grid-template-rows: 120px 120px 120px; */
+            width: 19%;
+            height: 6vh;
+            margin: 0 auto;
+            text-align: right;
+            padding-right: 3.1rem;
+            padding-top: 0.67rem;
+            padding: 0rem;
+            margin-top: 42rem;
+            margin-right: 6rem;
+            /* border: 1px solid blue; */
+            border-radius: 2rem;
+            background: black;
+        }
+
+        .statumanu-icp-software-link {
+            color: snow;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 1.2rem;
+            text-align: -webkit-center;
+            /* text-align: center; */
+            padding-top: 1.1rem;
+            padding-left: 0.5rem;
+        }
+    }
+
+    @media screen and (max-width: 1800px) {
+
+        .nature-article-link-box {
+            position: relative;
+            margin: 0 auto;
+            display: grid;
+            margin-left: 5.5rem;
+            margin-top: -25px;
+            padding: 2rem;
+        }
+
+        .nature-article-link {
+            font-family: 'Poppins', sans-serif;
+            color: black;
+            font-size: 1.5rem;
+        }
+
+            .nature-article-link span {
+                font-family: 'Poppins', sans-serif;
+                color: black;
+                font-size: 1.5rem;
+            }
+
+        .statumanu-icp-software-box {
+            display: grid;
+            /* grid-template-rows: 120px 120px 120px; */
+            width: 19%;
+            height: 5vh;
+            margin: 0 auto;
+            text-align: right;
+            padding-right: 3.1rem;
+            padding-top: 0.67rem;
+            padding: 0rem;
+            margin-top: 44rem;
+            margin-right: 6rem;
+            /* border: 1px solid blue; */
+            border-radius: 2rem;
+            background: black;
+        }
+
+     
+    }
+
+    @media screen and (max-width: 1700px) {
+
+        .nature-article-link-box {
+            position: relative;
+            margin: 0 auto;
+            display: grid;
+            margin-left: 2rem;
+            margin-top: -1rem;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .nature-article-link {
+            font-family: 'Poppins', sans-serif;
+            color: black;
+            font-size: 1.5rem;
+        }
+
+        .nature-article-link span {
+            font-family: 'Poppins', sans-serif;
+            color: black;
+            font-size: 1.5rem;
+        }
+
+        .statumanu-icp-software-box {
+            display: grid;
+            /* grid-template-rows: 120px 120px 120px; */
+            width: 18%;
+            height: 5vh;
+            margin: 0 auto;
+            text-align: right;
+            padding-right: 3.1rem;
+            padding-top: 0.67rem;
+            padding: 0rem;
+            margin-top: 45rem;
+            margin-right: 12rem;
+            /* border: 1px solid blue; */
+            border-radius: 2rem;
+            background: black;
+        }
+    }
+
+    @media screen and (max-width: 1600px) {
+
+        .statumanu-icp-software-box {
+            display: grid;
+            /* grid-template-rows: 120px 120px 120px; */
+            width: 20%;
+            height: 6vh;
+            margin: 0 auto;
+            text-align: right;
+            padding-right: 3.1rem;
+            padding-top: 0.67rem;
+            padding: 0rem;
+            margin-top: 45rem;
+            margin-right: 12rem;
+            /* border: 1px solid blue; */
+            border-radius: 2rem;
+            background: black;
+        }
+
+        .statumanu-icp-software-link {
+            color: snow;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 1.2rem;
+            text-align: -webkit-center;
+            /* text-align: center; */
+            padding-top: 0.6rem;
+            padding-left: 0.5rem;
+        }
+    }
+
+    @media screen and (max-width: 1500px) {
+
+        .nature-article-link-box {
+            position: relative;
+            margin: 0 auto;
+            display: grid;
+            margin-left: 2rem;
+            margin-top: -2rem;
+            padding: 3rem;
+            text-align: center;
+        }
+
+        .statumanu-icp-software-box {
+            display: grid;
+            /* grid-template-rows: 120px 120px 120px; */
+            width: 21%;
+            height: 7vh;
+            margin: 0 auto;
+            text-align: right;
+            padding-right: 3.1rem;
+            padding-top: 0.67rem;
+            padding: 0rem;
+            margin-top: 47rem;
+            margin-right: 6rem;
+            /* border: 1px solid blue; */
+            border-radius: 2rem;
+            background: black;
+        }
+
+        .statumanu-icp-software-link {
+            color: snow;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 1.2rem;
+            text-align: -webkit-center;
+            /* text-align: center; */
+            padding-top: 0.9rem;
+            padding-left: 0.6rem;
+        }
+    }
+
+@media screen and (max-width: 1496px) {
+    .statumanu-icp-software-box {
+        display: grid;
+        /* grid-template-rows: 120px 120px 120px; */
+        width: 20%;
+        height: 8vh;
+        margin: 0 auto;
+        text-align: right;
+        padding-right: 3.1rem;
+        padding-top: 0.67rem;
+        padding: 0rem;
+        margin-top: 46rem;
+        margin-right: 6rem;
+        /* border: 1px solid blue; */
+        border-radius: 2rem;
+        background: black;
+    }
+
+    .statumanu-icp-software-link {
+        color: snow;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 1.2rem;
+        text-align: -webkit-center;
+        padding-top: 0.6rem;
+        padding-left: 0.3rem;
+    }
+
+
+
+    .nature-article-link-box {
+        position: relative;
+        margin: 0 auto;
+        display: grid;
+        margin-left: 2rem;
+        margin-top: -1rem;
+        padding: 1rem;
+        text-align: center;
+    }
+}
+
+    @media screen and (max-width: 1420px) {
+
+        .nature-article-link-box {
+            position: relative;
+            margin: 0 auto;
+            display: grid;
+            margin-left: 2rem;
+            margin-top: -2rem;
+            padding: 2rem;
+        }
+
+        .statumanu-icp-software-box {
+            display: grid;
+            /* grid-template-rows: 120px 120px 120px; */
+            width: 21%;
+            height: 11vh;
+            margin: 0 auto;
+            text-align: right;
+            padding-right: 3.1rem;
+            padding-top: 0.67rem;
+            padding: 0rem;
+            margin-top: 47rem;
+            margin-right: 6rem;
+            /* border: 1px solid blue; */
+            border-radius: 2rem;
+            background: black;
+        }
+    }
+
+    @media screen and (max-width: 1400px) {
+
+        .nature-article-link-box {
+            position: relative;
+            margin: 0 auto;
+            display: grid;
+            margin-left: 2rem;
+            margin-top: -2rem;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .statumanu-icp-software-box {
+            display: grid;
+            /* grid-template-rows: 120px 120px 120px; */
+            width: 22%;
+            height: 4.5vh;
+            margin: 0 auto;
+            text-align: right;
+            padding-right: 3.1rem;
+            padding-top: 0.67rem;
+            padding: 0rem;
+            margin-top: 44.8rem;
+            margin-right: 3rem;
+            /* border: 1px solid blue; */
+            border-radius: 2rem;
+            background: black;
+        }
+    }
+
+    @media screen and (max-width: 1312px) {
+
+        .statumanu-icp-software-box {
+            display: grid;
+            /* grid-template-rows: 120px 120px 120px; */
+            width: 22%;
+            height: 9vh;
+            margin: 0 auto;
+            text-align: right;
+            padding-right: 3.1rem;
+            padding-top: 0.67rem;
+            padding: 0rem;
+            margin-top: 44.8rem;
+            margin-right: 3rem;
+            /* border: 1px solid blue; */
+            border-radius: 2rem;
+            background: black;
+        }
+    }
+
+    @media screen and (max-width: 1300px) {
+
+        .nature-article-link-box {
+            position: relative;
+            margin: 0 auto;
+            display: grid;
+            margin-left: 2rem;
+            margin-top: 0rem;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .nature-article-link {
+            font-family: 'Poppins', sans-serif;
+            color: black;
+            font-size: 1rem;
+        }
+
+        .statumanu-icp-software-box {
+            display: grid;
+            /* grid-template-rows: 120px 120px 120px; */
+            width: 25%;
+            height: 9vh;
+            margin: 0 auto;
+            text-align: right;
+            padding-right: 3.1rem;
+            padding-top: 0.67rem;
+            padding: 0rem;
+            margin-top: 49rem;
+            margin-right: 3rem;
+            /* border: 1px solid blue; */
+            border-radius: 2rem;
+            background: black;
+        }
+    }
+
+    @media screen and (max-width: 1200px) {
+
+        .nature-article-link-box {
+            position: relative;
+            margin: 0 auto;
+            display: grid;
+            margin-left: 2rem;
+            margin-top: -1rem;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .nature-article-link {
+            font-family: 'Poppins', sans-serif;
+            color: black;
+            font-size: 1rem;
+        }
+
+            .nature-article-link span {
+                font-family: 'Poppins', sans-serif;
+                color: black;
+                font-weight: 700;
+                font-size: 1rem;
+                padding-left: 1rem;
+            }
+
+        .statumanu-icp-software-box {
+            display: grid;
+            /* grid-template-rows: 120px 120px 120px; */
+            width: 22%;
+            height: 8vh;
+            margin: 0 auto;
+            text-align: right;
+            padding-right: 3.1rem;
+            padding-top: 0.67rem;
+            padding: 0rem;
+            margin-top: 30rem;
+            margin-right: 4rem;
+            /* border: 1px solid blue; */
+            border-radius: 2rem;
+            background: black;
+        }
+
+        .statumanu-icp-software-link {
+            color: snow;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 1rem;
+            text-align: -webkit-center;
+            /* text-align: center; */
+            padding-top: 0.6rem;
+            padding-left: 0.5rem;
+        }
+    }
+
+    @media screen and (max-width: 1100px) {
+    }
+
+    @media screen and (max-width: 1024px) {
+
+        .nature-article-link-box {
+            position: relative;
+            margin: 0 auto;
+            display: grid;
+            padding: 0rem;
+            margin-top: 0.1rem;
+            text-align: center;
+        }
+
+        .nature-article-link {
+            font-family: 'Poppins', sans-serif;
+            color: black;
+            font-size: 0.9rem;
+        }
+
+            .nature-article-link span {
+                font-family: 'Poppins', sans-serif;
+                color: black;
+                font-size: 0.9rem;
+            }
+
+        .statumanu-icp-software-box {
+            display: grid;
+            /* grid-template-rows: 120px 120px 120px; */
+            width: 35%;
+            height: 4vh;
+            margin: 0 auto;
+            text-align: right;
+            padding-right: 3.1rem;
+            padding-top: 0.67rem;
+            padding: 0rem;
+            margin-top: 30rem;
+            margin-right: 2rem;
+            /* border: 1px solid blue; */
+            border-radius: 2rem;
+            background: black;
+        }
+
+        .statumanu-icp-software-link {
+            color: snow;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 1.4rem;
+            text-align: -webkit-center;
+            /* text-align: center; */
+            padding-top: 0.8rem;
+            padding-left: 0.5rem;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+
+        .nature-article-link-box {
+            position: relative;
+            margin: 0 auto;
+            display: grid;
+            padding: 0rem;
+            margin-top: 0.1rem;
+            text-align: center;
+        }
+
+        .nature-article-link {
+            font-family: 'Poppins', sans-serif;
+            color: black;
+            font-size: 0.9rem;
+        }
+
+            .nature-article-link span {
+                font-family: 'Poppins', sans-serif;
+                color: black;
+                font-size: 0.9rem;
+            }
+
+        .statumanu-icp-software-box {
+            display: grid;
+            /* grid-template-rows: 120px 120px 120px; */
+            width: 61%;
+            height: 6vh;
+            margin: 0 auto;
+            text-align: right;
+            padding-right: 3.1rem;
+            padding-top: 0.65rem;
+            padding: 0rem;
+            margin-top: 18rem;
+            margin-right: -1.4rem;
+            /* border: 1px solid blue; */
+            border-radius: 2rem;
+            background: black;
+            transform: scale(0.6);
+        }
+
+        .statumanu-icp-software-link {
+            color: snow;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 1.6rem;
+            text-align: -webkit-center;
+            /* text-align: center; */
+            padding-top: 0.77rem;
+            padding-left: 0.7rem;
+        }
+    }
+
+    @media screen and (max-width: 540px) {
+    }
+
+    @media screen and (max-width: 500px) {
+        .nature-article-link-box {
+            height: 2vh;
+            width: 100%;
+            position: relative;
+            bottom: 2rem;
+            padding: 0.8rem;
+            margin: 0 auto;
+            padding-left: 2rem;
+        }
+
+
+
+        .nature-article-link {
+            font-family: 'Poppins', sans-serif;
+            color: black;
+            font-size: 0.3rem;
+        }
+
+            .nature-article-link span {
+                font-family: 'Poppins', sans-serif;
+                color: black;
+                font-weight: 700;
+                font-size: 0.3rem;
+            }
+
+        .statumanu-icp-software-link {
+            color: snow;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 1.5rem;
+            text-align: -webkit-center;
+            /* text-align: center; */
+            padding-top: 1rem;
+            padding-left: 0.7rem;
+        }
+
+        .statumanu-icp-software-box {
+            display: grid;
+            /* grid-template-rows: 120px 120px 120px; */
+            width: 100%;
+            height: 7vh;
+            margin: 0 auto;
+            text-align: right;
+            padding-right: 3.1rem;
+            padding-top: 0.67rem;
+            padding: 0rem;
+            margin-top: 14.5rem;
+            margin-left: 3rem;
+            /* border: 1px solid blue; */
+            border-radius: 2rem;
+            background: black;
+            transform: scale(0.4);
+        }
+    }
+
+    @media screen and (max-width: 414px) {
+    }
+
+    @media screen and (max-width: 411px) {
+
+        .nature-article-link-box {
+            height: 2vh;
+            width: 100%;
+            position: relative;
+            bottom: 1rem;
+            padding: 0.5rem;
+            margin: 0 auto;
+            /* padding-left: 2.78rem; */
+            text-align: center;
+        }
+
+        .nature-article-link {
+            font-family: 'Poppins', sans-serif;
+            color: black;
+            font-size: 0.5rem;
+        }
+
+            .nature-article-link span {
+                font-family: 'Poppins', sans-serif;
+                color: black;
+                font-size: 0.5rem;
+                padding-left: 0.5rem;
+            }
+    }
+
+
+    @media screen and (max-width: 375px) {
+
+        .nature-article-link-box {
+            height: 2vh;
+            width: 100%;
+            position: relative;
+            bottom: 2rem;
+            padding: 0.8rem;
+            margin: 0 auto;
+            padding-left: 2rem;
+        }
+
+
+
+        .nature-article-link {
+            font-family: 'Poppins', sans-serif;
+            color: black;
+            font-size: 0.3rem;
+        }
+
+            .nature-article-link span {
+                font-family: 'Poppins', sans-serif;
+                color: black;
+                font-weight: 700;
+                font-size: 0.3rem;
+            }
+
+        .statumanu-icp-software-link {
+            color: snow;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 1.5rem;
+            text-align: -webkit-center;
+            /* text-align: center; */
+            padding-top: 1rem;
+            padding-left: 0.7rem;
+        }
+
+        .statumanu-icp-software-box {
+            display: grid;
+            /* grid-template-rows: 120px 120px 120px; */
+            width: 100%;
+            height: 7vh;
+            margin: 0 auto;
+            text-align: right;
+            padding-right: 3.1rem;
+            padding-top: 0.67rem;
+            padding: 0rem;
+            margin-top: 14.5rem;
+            margin-left: 3rem;
+            /* border: 1px solid blue; */
+            border-radius: 2rem;
+            background: black;
+            transform: scale(0.4);
+        }
+    }
+
+    @media screen and (max-width: 360px) {
+        .nature-article-link-box {
+            height: 2vh;
+            width: 100%;
+            position: relative;
+            bottom: 2rem;
+            padding: 0.8rem;
+            margin: 0 auto;
+            margin-top: 1.7rem;
+            padding-left: 1rem;
+        }
+
+        .nature-article-link {
+            font-family: 'Poppins', sans-serif;
+            color: black;
+            font-size: 0.26rem;
+        }
+
+            .nature-article-link span {
+                font-family: 'Poppins', sans-serif;
+                color: black;
+                font-weight: 700;
+                font-size: 0.26rem;
+            }
+
+        .statumanu-icp-software-link {
+            color: snow;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 0.999rem;
+            text-align: -webkit-center;
+            /* text-align: center; */
+            padding-top: 1rem;
+            padding-left: 0.7rem;
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+
+
+
+        .nature-article-link-box {
+            height: 2vh;
+            width: 100%;
+            position: relative;
+            bottom: 2.46rem;
+            padding: 0.8rem;
+            margin: 0 auto;
+            margin-top: 2rem;
+            /* padding-left: 2rem; */
+        }
+
+        .nature-article-link {
+            font-family: 'Poppins', sans-serif;
+            color: black;
+            font-size: 0.274rem;
+        }
+
+        .statumanu-icp-software-link {
+            color: snow;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 0.9rem;
+            text-align: -webkit-center;
+            /* text-align: center; */
+            padding-top: 1rem;
+            padding-left: 0.7rem;
+        }
+    }
+
+       
+
+

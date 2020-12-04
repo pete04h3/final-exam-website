@@ -1,0 +1,859 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+/*Scrollbar design*/
+
+body::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: black; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: blue; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid black; /* creates padding around scroll thumb */
+}
+
+.noscroll{
+    overflow: hidden;
+}
+
+.scroll {
+    overflow: scroll;
+}
+
+/*Styles*/
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    width: 100%;
+    
+
+    
+}
+
+.statumanu-icp-mobile-logo {
+    margin: 0 auto;
+    padding-left: 2.5rem;
+    position: relative;
+}
+
+.mobile-links-grid-gap {
+    display: grid;
+    grid-gap: 38px;
+}
+
+
+
+.img-fluid {
+    width: 200px;
+    max-width: 200px !important;
+    height: auto;
+}
+
+.img-fluid2 {
+    width: 400px;
+    max-width: 400px !important;
+    height: auto;
+    display: none;
+}
+
+.top-box {
+    align-self: center;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.logo-box {
+    margin-right: auto;
+    width: 10%;
+}
+
+.top-right {
+    align-self: center;
+    margin-left: auto;
+    margin-right: 0px;
+    
+}
+
+.navbar {
+    background-color: black !important;
+    color: white !important;
+}
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* padding-left: 0; */
+    margin-bottom: 0;
+    list-style: none;
+    align-self: center !important;
+}
+
+.navbar-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 11vw;
+    margin-left: 11vw;
+}
+
+li.nav-item {
+    color: white !important;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link{
+    padding-right: 1.5rem!important;
+    padding-left: .5rem!important;
+}
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.signin-btn {
+    width: 100%;
+    height: 40px;
+    background-color: #202C8C;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding-left: 32px;
+    position: relative;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+  background-color: dimgray;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+ /* position: relative;
+  min-height: 100%;*/
+}
+
+.mb-3, .my-3 {
+    margin-bottom: 0rem !important;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 0px!important;
+  background-color: black !important;
+  overflow-x: hidden;
+}
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 100px; /* Vertically center the text there */
+    background-color: black;
+}
+
+.footer-container {
+    width: 100%;
+  
+}
+
+/*Splash section front page cover*/
+
+main {
+    padding: 0px;
+    margin: 0;
+    /*height: 100vh;*/
+    height: auto;
+ /*   background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Images/splashpictureLarge.png);
+    background-size: cover;
+    background-repeat: no-repeat;*/
+}
+
+.statumanu-icp-picture-banner {
+    padding: 0px;
+    margin: 0;
+    /*height: 100vh;*/
+    height: auto;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Images/splashpictureLarge.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.col-md-4 {
+}
+
+.border-top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.opacity-txt {
+    opacity: 75%;
+}
+
+.opacity-txt-2 {
+    opacity: 80%;
+}
+
+.logobox-splash {
+    position: absolute;
+    width: 874px;
+    height: 800px;
+    background: url(/Images/logo400px.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 20%;
+}
+
+
+.big-hero-txt {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    margin: 0 auto;
+    padding-top: 12vh;
+    padding-left: 12vw;
+    font-size: 9rem;
+    color: whitesmoke !important;
+    width: 100%;
+}
+
+.big-hero-txt-h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    margin: 0 auto;
+    padding-left: 12vw;
+    font-size: 9rem;
+    color: whitesmoke !important;
+    width: 100%;
+}
+
+.sub-hero-txt {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin: 0 auto;
+    padding-left: 12vw;
+    font-size: 3rem;
+    color: white !important;
+    width: 100%;
+}
+
+.paragraphs {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+    padding-top: 2rem;
+    line-height: 2em;
+    margin: 0 auto;
+    padding-left: 3.3vw;
+    font-size: 1.5rem;
+    color: white !important;
+    width: 82%;
+}
+
+.p2 {
+    padding-top: 2rem !important;
+    width: 100%;
+}
+
+.contact-sales-btn {
+    padding-top: 0.2vh;
+}
+
+
+.reg-button {
+    
+    background: white;
+    padding: 19px;
+    color: black;
+    text-align: center;
+    width: 120%;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 2.2rem;
+
+}
+
+.signin-button {
+    background: #202C8C;
+    padding: 2px;
+    color: black;
+    text-align: center;
+    width: 100%;
+    height: 33px;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+    top: 4px;
+}
+
+.btnbox {
+    /* margin: 0 auto;*/ /* Keep for future splashpage for website*/
+    display: flex;
+    /*padding-right: 77vw;*/ /* Keep for future splashpage for website*/
+}
+
+.btnbox2 {
+    margin: 0 auto;
+    padding-left: 12.4vw;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-top: 4rem;
+    display: flex;
+}
+
+
+
+.continue-arrow {
+    width: 12px;
+    height: 12px;
+    padding-left: 0.33vw;
+    display: initial;
+}
+
+.signin-arrow {
+    width: 12px;
+    height: 12px;
+    padding-left: 0.2vw;
+}
+
+/*Tool classes*/
+
+.hide {
+    display: none;
+}
+
+/*hover*/
+
+a .continuebtn:hover{
+    text-decoration: none;
+}
+
+/*RegisterPage/Loginpage*/
+
+.row {
+    background: whitesmoke;
+    height: 100vh;
+    width: 100%;
+    margin-left: 0px;
+    padding: 1.5rem;
+}
+
+.col-md-4{
+    transform: translate(0px 20px);
+}
+
+/*Other styling*/
+
+
+.mobile-logout-link {
+    background: transparent;
+    border: 2px solid white;
+    color: whitesmoke;
+    border-radius: 20px;
+    width: 100%;
+    margin-right: 0rem;
+    margin-left: -0.8rem;
+    color: whitesmoke !important;
+}
+
+
+/*Burgermenu*/
+
+
+
+/*Mediua Querys*/
+@media screen and (max-width: 1920px) {
+    .paragraphs {
+        font-family: 'Comfortaa', cursive;
+        font-weight: 500;
+        padding-top: 2rem;
+        line-height: 2em;
+        margin: 0;
+        padding-left: 12.3vw;
+        font-size: 1.5rem;
+        color: white !important;
+        width: 56%;
+    }
+}
+
+@media screen and (max-width: 1900px) {
+    .paragraphs {
+        font-family: 'Comfortaa', cursive;
+        font-weight: 500;
+        padding-top: 2rem;
+        line-height: 2em;
+        margin: 0;
+        padding-left: 12.3vw;
+        font-size: 1.5rem;
+        color: white !important;
+        width: 56%;
+    }
+}
+
+    @media screen and (max-width: 1400px) {
+        .row {
+            background: whitesmoke;
+            height: 100vh;
+            width: 100%;
+            margin-left: 0px;
+            padding: 1.5rem;
+        }
+    }
+
+    @media screen and (max-width: 1200px) {
+
+        .row {
+            background: whitesmoke;
+            height: 100vh;
+            width: 100%;
+            margin-left: 0px;
+            padding: 2rem;
+        }
+
+        .logobox-splash {
+            position: absolute;
+            width: 100%;
+            height: 400px;
+            background: url(/Images/logo400px.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            opacity: 20%;
+        }
+
+        .menu-wrap {
+            display: none;
+        }
+
+        main {
+            padding: 0px;
+            margin: 0;
+            width: 100%;
+            height: auto;
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Images/splashpictureLarge.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .navbar-nav {
+            display: none;
+        }
+
+        .top-right {
+            display: none;
+        }
+
+        .big-hero-txt {
+            font-size: 7rem;
+        }
+
+        .big-hero-txt-h2 {
+            font-size: 7rem;
+        }
+    }
+
+@media screen and (max-width: 1024px) {
+    .paragraphs {
+        font-family: 'Comfortaa', cursive;
+        font-weight: 500;
+        padding-top: 2rem;
+        line-height: 2em;
+        margin: 0;
+        padding-left: 12.3vw;
+        font-size: 1.5rem;
+        color: white !important;
+        width: 80%;
+    }
+}
+
+    @media screen and (max-width: 768px) {
+        .btnbox2 {
+            margin: 0 auto;
+            padding-left: 2.4vw;
+            padding-bottom: 1rem;
+            padding-top: 1rem;
+            /* padding-top: 4rem; */
+            display: flex;
+        }
+
+        .paragraphs {
+            text-align: center;
+            font-family: 'Comfortaa', cursive;
+            font-weight: 500;
+            padding-top: 3rem;
+            line-height: 2em;
+            margin: 0 auto;
+            padding-left: 1.3vw;
+            font-size: 1.6rem;
+            color: white !important;
+            /* width: 40rem; */
+        }
+
+
+
+        .btnbox {
+            /* margin: 0 auto; */
+            display: flex;
+            /* padding-right: 77vw; */
+            margin: 0 auto;
+            margin-top: 4rem;
+            transform: scale(1.5);
+        }
+
+        .row {
+            background: whitesmoke;
+            height: 100vh;
+            width: 100%;
+            margin-left: 0px;
+            padding: 2rem;
+        }
+    }
+
+    @media screen and (max-width: 540px) {
+
+        .big-hero-txt {
+            font-size: 5.5rem;
+        }
+
+        .big-hero-txt-h2 {
+            font-size: 5.5rem;
+        }
+    }
+
+
+
+
+    @media screen and (max-width: 500px) {
+
+        main {
+            width: 100%;
+            height: auto;
+            background-size: inherit;
+        }
+
+        .continue-arrow {
+            width: 12px;
+            height: 12px;
+            padding-left: 0.99vw;
+        }
+
+        .menu-wrap {
+            display: block;
+        }
+
+
+        .registerform {
+            display: grid;
+            margin-top: 7rem;
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 7rem;
+        }
+
+        .register-button {
+            margin-top: 20px;
+        }
+
+        .col-md-4 {
+            transform: translate(0px 33px);
+            padding: 50px;
+        }
+
+        .img-fluid {
+            width: 350px;
+            display: none;
+        }
+
+        .img-fluid2 {
+            width: 70px;
+            display: block;
+        }
+
+
+
+        .big-hero-txt {
+            font-size: 3.3rem;
+            padding-left: 21vw;
+            padding-top: 2rem;
+        }
+
+        .big-hero-txt-h2 {
+            font-size: 3.3rem;
+            padding-left: 22vw;
+        }
+
+        .sub-hero-txt {
+            font-size: 2rem;
+            padding-left: 3vw;
+            padding-top: 1rem;
+        }
+
+        .logobox-splash {
+            width: 80%;
+            height: 10rem;
+            opacity: 1;
+        }
+
+        .btnbox {
+            /* margin: 0 auto; */
+            display: flex;
+            /* padding-right: 77vw; */
+            margin: 0 auto;
+            padding-top: 3rem;
+            padding-bottom: 1rem;
+        }
+
+        .paragraphs {
+            text-align: left;
+            font-family: 'Comfortaa', cursive;
+            font-weight: 500;
+            padding-top: 3rem;
+            line-height: 2em;
+            padding: 1rem;
+            margin: 0 auto;
+            padding-left: 5.3vw;
+            font-size: 1.1rem;
+            color: white !important;
+            /* width: 40rem; */
+        }
+
+        .p2 {
+            padding-top: 2rem !important;
+            /* width: 40rem; */
+            font-size: 0.888rem;
+        }
+
+        .btnbox2 {
+            margin: 0 auto;
+            padding-left: 0vw !important;
+            padding-top: 4vh;
+            display: flex;
+            width: 100%;
+        }
+
+        .reg-button {
+            background: white;
+            padding: 19px;
+            color: black;
+            text-align: center;
+            width: 120%;
+            height: 40px;
+            border-radius: 20px;
+            margin: 0 auto;
+            position: relative;
+            margin-bottom: 2.2rem;
+            transform: scale(0.6);
+        }
+
+        .statumanu-icp-picture-banner {
+            padding: 1rem;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+
+        main {
+            width: 100%;
+            height: auto;
+            padding: 0;
+            background-size: inherit;
+        }
+
+        .menu-wrap {
+            display: block;
+        }
+
+
+
+        .registerform {
+            display: grid;
+            margin-top: 7rem;
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 7rem;
+        }
+
+        .register-button {
+            margin-top: 20px;
+        }
+
+        .col-md-4 {
+            transform: translate(0px 33px);
+            padding: 50px;
+        }
+
+        .img-fluid {
+            width: 350px !important;
+            display: none;
+        }
+
+        .img-fluid2 {
+            width: 70px;
+            display: block;
+        }
+
+
+
+        .logobox-splash {
+            width: 80%;
+        }
+
+        .btnbox {
+            /* margin: 0 auto; */
+            display: flex;
+            /* padding-right: 77vw; */
+            margin: 0 auto;
+            transform: scale(1.2);
+        }
+
+
+
+
+
+        .paragraphs {
+            text-align: center;
+            font-family: 'Comfortaa', cursive;
+            font-weight: 500;
+            padding-top: 3rem;
+            line-height: 2em;
+            margin: 0 auto;
+            padding-left: 1.3vw;
+            font-size: 1rem;
+            color: white !important;
+            /* width: 40rem; */
+        }
+
+        .p2 {
+            padding-top: 2rem !important;
+            /* width: 40rem; */
+            font-size: 0.888rem;
+        }
+
+        .btnbox2 {
+            margin: 0 auto;
+            padding-left: 0vw !important;
+            padding-top: 4vh;
+            display: flex;
+        }
+
+        .big-hero-txt {
+            font-size: 4rem;
+        }
+
+        .big-hero-txt-h2 {
+            font-size: 4rem;
+        }
+
+        .sub-hero-txt {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            margin: 0 auto;
+            padding-left: 4vw;
+            font-size: 1.8rem;
+            color: white !important;
+            width: 100%;
+        }
+
+        .reg-button {
+            transform: scale(0.6);
+        }
+    }
+
+    @media screen and (max-width: 360px) {
+
+        .statumanu-icp-picture-banner {
+            padding: 0rem;
+        }
+    }
+
+    @media screen and (max-width: 280px) {
+        .big-hero-txt {
+            font-size: 3rem;
+            padding-left: 3vw;
+            padding-top: 1.3rem;
+        }
+
+        .big-hero-txt-h2 {
+            font-size: 3rem;
+            padding-left: 3vw;
+        }
+
+        .btnbox {
+            /* margin: 0 auto; */
+            display: flex;
+            /* padding-right: 77vw; */
+            margin: 0 auto;
+            transform: scale(1);
+        }
+
+        .statumanu-icp-picture-banner {
+            padding: 0rem;
+        }
+    }
+
+
+
+    @media screen and (max-width: 200px) {
+
+        .statumanu-icp-picture-banner {
+            padding: 0rem;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    

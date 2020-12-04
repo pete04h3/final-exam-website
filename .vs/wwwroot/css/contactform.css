@@ -1,0 +1,319 @@
+﻿.form-header {
+    width: 100%;
+    font-size: 3.5rem;
+    margin-top: 20px;
+    color: snow;
+    padding: 0.9rem;
+    text-align: -webkit-center;
+}
+
+.topBefore {
+    display: grid;
+    grid-gap: 155px;
+}
+
+input {
+    overflow: visible;
+    background: transparent;
+    color: snow;
+    padding: 0.9rem;
+    border: none;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: snow;
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+    background: transparent;
+    color: snow;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    border: none;
+}
+
+#submit {
+    background-color: #202cbc;
+}
+
+@media only screen and (min-width: 2000px) {
+
+    .topBefore {
+        display: grid;
+        grid-gap: 155px;
+    }
+}
+
+@media only screen and (max-width: 1900px) {
+
+    .topBefore {
+        display: grid;
+        grid-gap: 105px;
+    }
+}
+
+@media only screen and (max-width: 1800px) {
+
+    .topBefore {
+        display: grid;
+        grid-gap: 105px;
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+
+    .topBefore {
+        display: grid;
+        grid-gap: 105px;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+
+    .topBefore {
+        display: grid;
+        grid-gap: 110px;
+    }
+}
+
+
+    @media only screen and (max-width: 1500px) {
+        .topBefore {
+            display: grid;
+            grid-gap: 105px;
+        }
+    }
+
+    @media only screen and (max-width: 1200px) {
+
+        .topBefore {
+            display: grid;
+            grid-gap: 0px;
+        }
+
+        input {
+            overflow: visible;
+            background: transparent;
+            color: snow;
+            padding: 0.9rem;
+            border: none;
+            font-size: 2rem;
+            margin-top: 1rem;
+        }
+    }
+
+    @media only screen and (max-width: 1024px) {
+        .form-header {
+            width: 100%;
+            font-size: 3rem;
+            margin-top: 1rem;
+            color: snow;
+            padding: 0.9rem;
+            text-align: -webkit-center;
+        }
+
+        .topBefore {
+            display: grid;
+            grid-gap: 2px;
+        }
+
+        textarea {
+            overflow: auto;
+            resize: vertical;
+            background: transparent;
+            color: snow;
+            border: none;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+
+        .form-header {
+            width: 100%;
+            color: snow;
+            padding: 0.9rem;
+            text-align: -webkit-center;
+            font-size: 2rem;
+            margin-top: 1.5rem;
+        }
+
+        textarea {
+            overflow: auto;
+            resize: vertical;
+            background: transparent;
+            color: snow;
+            border: none;
+            font-size: 1rem;
+        }
+
+        .topBefore {
+            display: grid;
+            grid-gap: 5px;
+            margin-top: 0px;
+        }
+
+        #submit {
+            width: 100%;
+            padding-left: 50px;
+        }
+
+        input {
+            font-size: 1rem;
+            margin-top: 0px;
+        }
+    }
+
+@media only screen and (max-width: 540px) {
+    .topBefore {
+        display: grid;
+        grid-gap: 19px;
+        margin-top: 0px;
+    }
+}
+
+
+
+    @media only screen and (max-width: 500px) {
+        textarea {
+            overflow: auto;
+            resize: none;
+            background: transparent;
+            border: none;
+            text-align: left;
+            padding-left: 12px;
+            padding-top: 0px;
+            font-size: 0.9rem;
+        }
+
+        .form-header {
+            width: 100%;
+            color: snow;
+            padding: 0.9rem;
+            text-align: -webkit-center;
+            font-size: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        #submit {
+            border-radius: 0px;
+            border: none;
+            padding-left: 21.5px;
+        }
+
+        .topBefore {
+            display: grid;
+            grid-gap: 0px;
+            margin-top: 0px;
+        }
+
+        input {
+            overflow: visible;
+            background: transparent;
+            color: snow;
+            padding: 0.9rem;
+            border: none;
+            font-size: 0.9rem;
+        }
+    }
+
+    @media only screen and (max-width: 411px) {
+        .topBefore {
+            display: grid;
+            grid-gap: 0px;
+        }
+    }
+
+    @media only screen and (max-width: 375px) {
+        textarea {
+            overflow: auto;
+            resize: none;
+            background: transparent;
+            border: none;
+            text-align: left;
+            padding-left: 12px;
+            padding-top: 11px;
+            font-size: 0.9rem;
+        }
+
+        .form-header {
+            width: 100%;
+            color: snow;
+            padding: 0.9rem;
+            text-align: -webkit-center;
+            font-size: 1rem;
+            margin-top: 1.5rem;
+        }
+
+
+
+        #submit {
+            border-radius: 0px;
+            border: none;
+            padding-left: 21.5px;
+        }
+
+        .topBefore {
+            display: grid;
+            grid-gap: 0px;
+            margin-top: 0px;
+        }
+
+
+        input {
+            overflow: visible;
+            background: transparent;
+            color: snow;
+            padding: 0.9rem;
+            border: none;
+            font-size: 0.77rem;
+        }
+    }
+
+    @media only screen and (max-width: 360px) {
+        .topBefore {
+            display: grid;
+            grid-gap: 0px;
+            margin-top: -20px;
+        }
+
+        input {
+            overflow: visible;
+            background: transparent;
+            color: snow;
+            padding: 0.9rem;
+            border: none;
+            font-size: 0.77rem;
+        }
+    }
+
+    @media only screen and (max-width: 280px) {
+
+        #submit {
+            border-radius: 0px;
+            border: none;
+            padding-left: 3.5px;
+        }
+
+        input {
+            overflow: visible;
+            background: transparent;
+            color: snow;
+            padding: 0.9rem;
+            border: none;
+            font-size: 0.77rem;
+        }
+
+        .topBefore {
+            display: grid;
+            grid-gap: 0px;
+            margin-top: -11px;
+        }
+    }
+
+
+
+

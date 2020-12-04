@@ -1,0 +1,231 @@
+﻿#statumanu-stay-updated-software{
+    background: whitesmoke;
+    width: 100%;
+    height: auto;
+}
+
+.prototype-link {
+    position: absolute;
+    margin: 0 auto;
+    right: 17rem;
+    margin-top: 24rem;
+    color: black;
+    font-weight: 600;
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 0.4rem;
+}
+
+.stay-updated-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: whitesmoke;
+}
+
+.stay-updated-headline {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.stay-updated-wrapper h1 {
+    font-size: 3rem;
+    color: black;
+    padding-left: 1.5rem;
+    padding-top: 2rem;
+}
+
+.stay-updated-wrapper p {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5em;
+    margin-top: 0;
+    /* padding-right: 40px; */
+    padding-left: 1.5rem;
+    margin-top: 2rem;
+    color: black;
+    width: 100%;
+}
+.stay-updated-wrapper form {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.stay-updated-wrapper img {
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.stay-updated-wrapper #email {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 1.5rem;
+    font-size: 1.9rem;
+    color: black;
+}
+
+    .stay-updated-wrapper #email::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: blaCK;
+    }
+
+.stay-updated-wrapper #submit {
+    /* height: 35px; */
+    width: 28%;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    /* box-shadow: 2px 2px 5px hsl(0, 0%, 75%); */
+    border-radius: 40px;
+    cursor: pointer;
+    transform: scale(0.6);
+    margin-left: 12rem;
+}
+
+    .stay-updated-wrapper #submit:hover {
+        background-color: darkblue;
+    }
+
+
+
+
+/*Mediua Querys*/
+@media screen and (min-width: 1200px) {
+    .stay-updated-wrapper img {
+        margin-left: 0;
+        width: 600px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .stay-updated-wrapper h1 {
+        font-size: 3rem;
+        color: black;
+        padding-left: 1.5rem;
+    }
+
+    .stay-updated-wrapper img {
+        width: 100%;
+        height: auto;
+    }
+
+    .stay-updated-img-box
+
+{
+    display: flex;
+    margin-top: 2rem;
+}
+
+  
+
+    .prototype-link {
+        position: absolute;
+        margin: 0 auto;
+        right: 9rem;
+        margin-top: 22rem;
+        color: black;
+        font-weight: bold;
+        font-size: 1.2rem;
+        transform: scale(0.7);
+        border: 2px solid blue;
+        border-radius: 20px;
+        padding: 7px;
+    }
+
+    .stay-updated-wrapper form {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .stay-updated-wrapper #submit {
+        /* height: 35px; */
+        width: 40%;
+        background-color: hsl(224, 93%, 58%);
+        border: none;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        /* box-shadow: 2px 2px 5px hsl(0, 0%, 75%); */
+        border-radius: 40px;
+        cursor: pointer;
+        transform: scale(1);
+        margin-left: 14rem;
+    }
+
+    .stay-updated-wrapper h1 {
+        font-size: 3rem;
+        color: black;
+        padding-left: 1.5rem;
+    }
+
+    .stay-updated-wrapper p {
+        font-family: 'Comfortaa', sans-serif;
+        font-size: 1.3rem;
+        line-height: 1.5em;
+        margin-top: 0;
+        /* padding-right: 40px; */
+        padding-left: 1.5rem;
+        margin-top: 2rem;
+        color: black;
+        width: 95%;
+    }
+
+    .stay-updated-wrapper {
+        width: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background: whitesmoke;
+    }
+}
+
+@media screen and (max-width: 375px) {
+        .stay-updated-wrapper h1 {
+            font-size: 3rem;
+            color: black;
+            padding-left: 1.5rem;
+        }
+
+        .stay-updated-wrapper img {
+            width: 100%;
+            height: auto;
+        }
+
+        .stay-updated-wrapper h1 {
+            font-size: 3rem;
+            color: black;
+            padding-left: 1.5rem;
+        }
+
+        .stay-updated-wrapper p {
+            font-family: 'Comfortaa', sans-serif;
+            font-size: 1.3rem;
+            line-height: 1.5em;
+            margin-top: 0;
+            /* padding-right: 40px; */
+            padding-left: 1.5rem;
+            margin-top: 2rem;
+            color: black;
+            width: 95%;
+        }
+
+        .stay-updated-wrapper {
+            width: 100%;
+            display: block;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            background: whitesmoke;
+        }
+    }

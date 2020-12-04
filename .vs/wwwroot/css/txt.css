@@ -1,0 +1,880 @@
+﻿
+
+
+
+#nature-article-wrapper {
+    padding: 100px;
+
+}
+
+    .statumanu-icp-article-headline {
+        font-size: 3.5rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+.statumanu-icp-article-paragraph {
+    font-size: 1.4rem;
+    font-family: 'Comfortaa', sans-serif;
+    margin-top: 40px;
+}
+
+    .Innovative-technology-herotxt {
+        display: grid;
+        grid-template-rows: 100px 0px 0px;
+        margin-top: 350px;
+    }
+
+    #technology-solutions-label {
+        grid-template-rows: 100px 0px 0px;
+    }
+
+
+.tracking-monitoring-herotxt {
+    display: grid;
+    grid-template-rows: 65px 65px 65px;
+    margin-top: 320px;
+    padding-right: 3rem;
+}
+
+    #tracking-monitoring-label {
+        grid-template-rows: 100px 0px 0px;
+    }
+
+    .hero-sub-solutions {
+        width: 100%;
+        height: auto;
+        font-size: 3.5rem;
+        text-align: center;
+        color: snow;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+
+    .hero-sub-advanced {
+        width: 100%;
+        height: auto;
+        font-size: 3.5rem;
+        text-align: center;
+        color: snow;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+
+    .hero-sub-tracking {
+        width: 100%;
+        height: auto;
+        font-size: 3rem;
+        text-align: right;
+        background: -webkit-linear-gradient(#ffffff, #051078);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+
+    .hero-sub-monitoring {
+        width: 100%;
+        height: auto;
+        font-size: 5rem;
+        text-align: right;
+        background: -webkit-linear-gradient(#ffffff, #051078);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+
+@media only screen and (min-width: 1900px) {
+    .hero-sub-tracking {
+        width: 100%;
+        height: auto;
+        font-size: 5rem;
+        text-align: right;
+        background: -webkit-linear-gradient(#ffffff, #051078);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+
+    .tracking-monitoring-herotxt {
+        display: grid;
+        grid-template-rows: 100px 100px 106px;
+        margin-top: 262px;
+        padding-right: 3rem;
+    }
+}
+
+
+
+
+
+    @media only screen and (max-width: 1800px) {
+
+        .tracking-monitoring-herotxt {
+            display: grid;
+            grid-template-rows: 90px 90px 90px;
+            margin-top: 320px;
+            padding-right: 8rem;
+        }
+
+        .hero-sub-tracking {
+            width: 100%;
+            height: auto;
+            font-size: 4rem;
+            text-align: right;
+            background: -webkit-linear-gradient(#ffffff, #051078);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+        }
+    }
+
+
+    @media only screen and (max-width: 1700px) {
+        .hero-sub-tracking {
+            width: 100%;
+            height: auto;
+            font-size: 4rem;
+            text-align: right;
+            background: -webkit-linear-gradient(#ffffff, #051078);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+        }
+
+        .tracking-monitoring-herotxt {
+            display: grid;
+            grid-template-rows: 80px 80px 80px;
+            margin-top: 320px;
+            padding-right: 3rem;
+        }
+
+        .statumanu-icp-article-headline {
+            font-size: 2.9rem;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .statumanu-icp-article-paragraph {
+            font-size: 1.4rem;
+            margin-top: 1rem;
+            font-family: 'Comfortaa', sans-serif;
+        }
+    }
+
+    @media only screen and (max-width: 1600px) {
+
+        .statumanu-icp-article-headline {
+            font-size: 2.8rem;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .statumanu-icp-article-paragraph {
+            font-size: 1.4rem;
+            margin-top: 1rem;
+            font-family: 'Comfortaa', sans-serif;
+        }
+
+        .tracking-monitoring-herotxt {
+            display: grid;
+            grid-template-rows: 80px 80px 80px;
+            margin-top: 320px;
+            padding-right: 3rem;
+        }
+
+        .hero-sub-tracking {
+            width: 100%;
+            height: auto;
+            font-size: 3.5rem;
+            text-align: right;
+            background: -webkit-linear-gradient(#ffffff, #051078);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+        }
+    }
+
+    @media only screen and (max-width: 1500px) {
+        .statumanu-icp-article-headline {
+            font-size: 2.5rem;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .statumanu-icp-article-paragraph {
+            font-size: 1.3rem;
+            font-family: 'Comfortaa', sans-serif;
+            margin-top: 1rem;
+        }
+    }
+
+
+    @media only screen and (max-width: 1400px) {
+        .hero-sub-advanced {
+            width: 100%;
+            height: auto;
+            font-size: 3.5rem;
+            text-align: center;
+        }
+
+        .hero-sub-solutions {
+            width: 100%;
+            height: auto;
+            font-size: 3.5rem;
+            text-align: center;
+        }
+
+        .tracking-monitoring-herotxt {
+            display: grid;
+            grid-template-rows: 100px 100px 100px;
+            margin-top: 240px;
+            padding-right: 3rem;
+        }
+
+        .hero-sub-tracking {
+            width: 100%;
+            height: auto;
+            font-size: 4rem;
+            text-align: right;
+            background: -webkit-linear-gradient(#ffffff, #051078);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+        }
+
+        .statumanu-icp-article-headline {
+            font-size: 2.5rem;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .statumanu-icp-article-paragraph {
+            font-size: 1.2rem;
+            font-family: 'Comfortaa', sans-serif;
+        }
+        }
+    }
+
+    @media only screen and (max-width: 1300px) {
+        .hero-sub-advanced {
+            width: 100%;
+            height: auto;
+            font-size: 3.5rem;
+            text-align: center;
+        }
+
+        .hero-sub-solutions {
+            width: 100%;
+            height: auto;
+            font-size: 3.5rem;
+            text-align: center;
+        }
+    }
+
+    @media only screen and (max-width: 1200px) {
+
+        #nature-article-wrapper {
+            padding: 100px;
+        }
+
+        .statumanu-icp-article-headline {
+            font-size: 2rem;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .statumanu-icp-article-paragraph {
+            font-size: 0.75rem;
+            font-family: 'Comfortaa', sans-serif;
+            margin-top: 1.5rem;
+        }
+
+        .Innovative-technology-herotxt {
+            display: grid;
+            grid-template-rows: 100px 0px 0px;
+            margin-top: 400px;
+        }
+
+        #technology-solutions-label {
+            grid-template-rows: 100px 0px 0px;
+        }
+
+        .tracking-monitoring-herotxt {
+            display: grid;
+            grid-template-rows: 65px 65px 65px;
+            margin-top: 170px;
+            padding-right: 3rem;
+        }
+
+        #tracking-monitoring-label {
+            grid-template-rows: 100px 0px 0px;
+        }
+
+        .hero-sub-solutions {
+            width: 100%;
+            height: auto;
+            font-size: 5rem;
+            text-align: center;
+        }
+
+
+
+
+        .hero-sub-advanced {
+            width: 100%;
+            height: auto;
+            font-size: 5rem;
+            text-align: center;
+        }
+
+
+        .hero-sub-tracking {
+            width: 100%;
+            height: auto;
+            font-size: 3rem;
+        }
+
+        .hero-sub-monitoring {
+            width: 100%;
+            height: auto;
+            font-size: 5rem;
+        }
+    }
+
+    @media only screen and (max-width: 1100px) {
+
+        .statumanu-icp-article-headline {
+            font-size: 1.8rem;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .hero-sub-solutions {
+            width: 100%;
+            height: auto;
+            font-size: 3rem;
+            text-align: center;
+        }
+
+        .hero-sub-advanced {
+            width: 100%;
+            height: auto;
+            font-size: 3rem;
+            text-align: center;
+        }
+
+        .Innovative-technology-herotxt {
+            display: grid;
+            grid-template-rows: 100px 0px 0px;
+            margin-top: 230px;
+        }
+    }
+
+    @media only screen and (max-width: 1024px) {
+
+        #nature-article-wrapper {
+            padding: 100px;
+        }
+
+        .statumanu-icp-article-headline {
+            font-size: 1.7rem;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .statumanu-icp-article-paragraph {
+            font-size: 0.74rem;
+            font-family: 'Comfortaa', sans-serif;
+        }
+
+
+        .Innovative-technology-herotxt {
+            display: grid;
+            grid-template-rows: 60px 0px 0px;
+            margin-top: 240px;
+        }
+
+        .tracking-monitoring-herotxt {
+            display: grid;
+            grid-template-rows: 60px 60px 60px;
+            margin-top: 160px;
+            padding-right: 1.8rem;
+        }
+
+        #tracking-monitoring-label {
+            grid-template-rows: 60px 0px 0px;
+        }
+
+        .hero-sub-solutions {
+            width: 100%;
+            height: auto;
+            font-size: 2.6rem;
+            text-align: center;
+        }
+
+
+        .hero-sub-tracking {
+            width: 100%;
+            height: auto;
+            font-size: 3rem;
+        }
+
+        .hero-sub-monitoring {
+            width: 100%;
+            height: auto;
+            font-size: 3rem;
+        }
+
+        .hero-sub-advanced {
+            width: 100%;
+            height: auto;
+            font-size: 2.6rem;
+            text-align: center;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+
+        #nature-article-wrapper {
+            padding: 30px;
+        }
+
+        .statumanu-icp-article-paragraph {
+            font-size: 9px;
+            font-family: 'Comfortaa', sans-serif;
+        }
+
+        .statumanu-icp-article-headline {
+            font-size: 1.5rem;
+            font-family: 'Poppins', sans-serif;
+        }
+
+
+
+        .Innovative-technology-herotxt {
+            display: grid;
+            grid-template-rows: 40px 0px 0px;
+            margin-top: 160px;
+        }
+
+      
+
+        .tracking-monitoring-herotxt {
+            display: grid;
+            grid-template-rows: 40px 40px 40px;
+            margin-top: 112px;
+            padding-right: 1.8rem;
+        }
+
+        #tracking-monitoring-label {
+            grid-template-rows: 40px 0px 0px;
+        }
+
+        .hero-sub-solutions {
+            width: 100%;
+            height: auto;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+
+
+
+        .hero-sub-advanced {
+            width: 100%;
+            height: auto;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .hero-sub-tracking {
+            width: 100%;
+            height: auto;
+            font-size: 2rem;
+        }
+
+        .hero-sub-monitoring {
+            width: 100%;
+            height: auto;
+            font-size: 2rem;
+        }
+
+        .paragraphs {
+            text-align: center;
+            font-family: 'Comfortaa', cursive;
+            font-weight: 500;
+            padding-top: 3rem;
+            line-height: 2em;
+            margin: 0 auto;
+            padding-left: 1.3vw;
+            font-size: 1.28rem;
+            color: white !important;
+            /* width: 40rem; */
+        }
+
+       
+    }
+
+
+
+
+    @media only screen and (max-width: 540px) {
+        .statumanu-icp-article-paragraph {
+            font-size: 7px;
+            font-family: 'Comfortaa', sans-serif;
+            margin-top: 0rem;
+        }
+
+        .statumanu-icp-article-headline {
+            font-size: 1.3rem;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /*.big-hero-txt {
+            font-size: 5.5rem;
+        }
+
+        .big-hero-txt-h2 {
+            font-size: 5.5rem;
+        }*/
+
+        .sub-hero-txt {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            margin: 0 auto;
+            padding-left: 8vw;
+            font-size: 2rem;
+            color: white !important;
+            width: 100%;
+        }
+
+
+        .paragraphs {
+            text-align: left;
+            font-family: 'Comfortaa', cursive;
+            font-weight: 500;
+            padding-top: 3rem;
+            line-height: 2.4em;
+            /* padding: 1rem; */
+            margin: 0;
+            padding-left: 8vw;
+            font-size: 1.3rem;
+            color: white !important;
+            /* width: 40rem; */
+            width: 100%;
+        }
+
+        .btnbox2 {
+            margin: 0 auto;
+            padding-left: 0.4vw;
+            padding-bottom: 1rem;
+            padding-top: 1rem;
+            /* padding-top: 4rem; */
+            display: flex;
+            margin-top: 1rem;
+        }
+
+        .btnbox {
+            /* margin: 0 auto; */
+            display: flex;
+            /* padding-right: 77vw; */
+            margin: 0 auto;
+        }
+
+        .hero-sub-advanced {
+            width: 100%;
+            height: auto;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        .hero-sub-solutions {
+            width: 100%;
+            height: auto;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        .tracking-monitoring-herotxt {
+            display: grid;
+            grid-template-rows: 30px 30px 30px;
+            margin-top: 124px;
+            padding-right: 1.8rem;
+        }
+
+        .hero-sub-tracking {
+            width: 100%;
+            height: auto;
+            font-size: 1.5rem;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+
+        #nature-article-wrapper {
+            padding: 20px;
+        }
+
+        .statumanu-icp-article-paragraph {
+            font-size: 5.5px;
+            font-family: 'Comfortaa', sans-serif;
+            margin-top: 0rem;
+        }
+
+        .statumanu-icp-article-headline {
+            font-size: 0.9rem;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .Innovative-technology-herotxt {
+            display: grid;
+            grid-template-rows: 20px 0px 0px;
+            margin-top: 115px;
+        }
+
+        #technology-solutions-label {
+            grid-template-rows: 40px 0px 0px;
+        }
+
+        .tracking-monitoring-herotxt {
+            display: grid;
+            grid-template-rows: 20px 20px 20px;
+            margin-top: 99px;
+            padding-right: 1rem;
+            align-items: baseline;
+        }
+
+        #tracking-monitoring-label {
+            grid-template-rows: 40px 0px 0px;
+        }
+
+        .hero-sub-solutions {
+            width: 100%;
+            height: auto;
+            font-size: 1rem;
+        }
+
+        .hero-sub-advanced {
+            width: 100%;
+            height: auto;
+            font-size: 1rem;
+        }
+
+        .hero-sub-tracking {
+            width: 100%;
+            height: auto;
+            font-size: 1.2rem;
+        }
+
+        .hero-sub-monitoring {
+            width: 100%;
+            height: auto;
+            font-size: 1rem;
+        }
+
+        .sub-hero-txt {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            margin: 0 auto;
+            padding-left: 8vw;
+            font-size: 2rem;
+            color: white !important;
+            width: 100%;
+        }
+    }
+
+@media only screen and (max-width: 411px) {
+    textarea {
+        overflow: auto;
+        resize: none;
+        background: transparent;
+        border: none;
+        text-align: left;
+        padding-left: 12px;
+        padding-top: 0px;
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+        #nature-article-wrapper {
+            padding: 20px;
+        }
+
+        .statumanu-icp-article-paragraph {
+            font-size: 5.5px;
+            font-family: 'Comfortaa', sans-serif;
+            margin-top: 0rem;
+        }
+
+        .statumanu-icp-article-headline {
+            font-size: 0.9rem;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .Innovative-technology-herotxt {
+            display: grid;
+            grid-template-rows: 20px 0px 0px;
+            margin-top: 115px;
+        }
+
+        #technology-solutions-label {
+            grid-template-rows: 40px 0px 0px;
+        }
+
+        .tracking-monitoring-herotxt {
+            display: grid;
+            grid-template-rows: 20px 20px 20px;
+            margin-top: 99px;
+            padding-right: 1rem;
+            align-items: baseline;
+        }
+
+        #tracking-monitoring-label {
+            grid-template-rows: 40px 0px 0px;
+        }
+
+        .hero-sub-solutions {
+            width: 100%;
+            height: auto;
+            font-size: 1rem;
+        }
+
+        .hero-sub-advanced {
+            width: 100%;
+            height: auto;
+            font-size: 1rem;
+        }
+
+        .hero-sub-tracking {
+            width: 100%;
+            height: auto;
+            font-size: 1.2rem;
+        }
+
+        .hero-sub-monitoring {
+            width: 100%;
+            height: auto;
+            font-size: 1rem;
+        }
+
+        .big-hero-txt {
+            font-size: 3rem;
+        }
+
+        .big-hero-txt-h2 {
+            font-size: 3rem;
+        }
+
+    .sub-hero-txt {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        margin: 0 auto;
+        padding-left: 8vw;
+        font-size: 1.4rem;
+        color: white !important;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    .statumanu-icp-article-paragraph {
+        font-size: 5px;
+        font-family: 'Comfortaa', sans-serif;
+        margin-top: 0rem;
+    }
+
+    .big-hero-txt {
+        font-size: 2.9rem;
+    }
+
+    .big-hero-txt-h2 {
+        font-size: 2.9rem;
+    }
+
+    .sub-hero-txt {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        margin: 0 auto;
+        padding-left: 8vw;
+        font-size: 1rem;
+        color: white !important;
+        width: 100%;
+    }
+
+
+}
+
+    @media only screen and (max-width: 320px) {
+        .statumanu-icp-article-paragraph {
+            font-size: 4.8px;
+            font-family: 'Comfortaa', sans-serif;
+            margin-top: 0rem;
+        }
+
+        .big-hero-txt {
+            font-size: 3.5rem;
+        }
+
+        .big-hero-txt-h2 {
+            font-size: 3.5rem;
+        }
+    }
+
+    @media only screen and (max-width: 280px) {
+        .statumanu-icp-article-paragraph {
+            font-size: 4px;
+            font-family: 'Comfortaa', sans-serif;
+            margin-top: 0rem;
+        }
+    }
+
+    @media screen and (max-width: 280px) {
+
+
+        .hero-sub-advanced {
+            width: 100%;
+            height: auto;
+            font-size: 0.78rem;
+        }
+
+        .hero-sub-solutions {
+            width: 100%;
+            height: auto;
+            font-size: 0.78rem;
+        }
+
+        .hero-sub-tracking {
+            width: 100%;
+            height: auto;
+            font-size: 0.8rem;
+        }
+
+        .tracking-monitoring-herotxt {
+            display: grid;
+            grid-template-rows: 15px 15px 15px;
+            margin-top: 99px;
+            padding-right: 1rem;
+            align-items: baseline;
+        }
+
+        .big-hero-txt {
+            font-size: 3.1rem;
+        }
+
+        .big-hero-txt-h2 {
+            font-size: 3.1rem;
+        }
+
+        .sub-hero-txt {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            margin: 0 auto;
+            padding-left: 4vw;
+            font-size: 1.3rem;
+            color: white !important;
+            width: 100%;
+        }
+    }
+
